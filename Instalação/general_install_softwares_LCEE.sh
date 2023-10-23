@@ -1,13 +1,11 @@
 #!/bin/bash
-# Ultima Atualização: 18/10/2023
-
-
-USER=$(whoami)
+# Ultima Atualização: 23/10/2023
 
 # Documentacao LCEE: https://docs.google.com/document/d/1bnXhSl0Q7n9jgF0m1FqWycCkRyAJd4P5/edit?usp=sharing&ouid=104487920549651403501&rtpof=true&sd=true
 
+USER=$(whoami)
 
-ATUALIZAR_SISTEMA=true
+DEPENDENCIAS=true
 
 # Lista de Softwares para Instalar
 DOCKER=true # 
@@ -19,9 +17,9 @@ OCTAVE=true #
 
 
 # Atualizacao de Sistemas
+sudo apt-get update
 
-if $ATUALIZAR_SISTEMA; then
-    sudo apt-get update
+if $DEPENDENCIAS; then
     sudo apt-get install ca-certificates
     sudo apt-get install curl
     sudo apt-get install gnupg

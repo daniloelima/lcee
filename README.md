@@ -7,10 +7,13 @@ Repositório para as atividades do Laboratório de Computação para Engenharia 
 
 [Drive](https://drive.google.com/drive/folders/18Un8P1lrbHC7CKtmb7pVnO0NpNZHpF6P)
 
+[Planilha](https://docs.google.com/spreadsheets/d/14guPu286_RSIyEn7gyfUo2kHLwa5NKoeKSU7KQInk8U/edit?usp=sharing)
+
 ## Tarefas
 - [X] Criar um tutorial de Shell Script e adicionar na Documentação do laboratório
 - [X] Criar um shell script para instalar as extensões do VSCODE
 - [ ] Criar um shell script para instalar os programas do laboratorio (Wireshark, Vscode, MATLAB, ROS2, etc...)
 - [ ] fazer o procedimento de identificar as peças do hardware de um computador e ver como estão 
-- [ ] fazer o procedimento de compartilhamento de arquivos da maquina dos monitores para as maquinas do lab (ver sobre ssh/scp)
+- [ ] fazer o procedimento de compartilhamento de arquivos da maquina dos monitores para as maquinas do lab (ver sobre ssh/scp) // (OUTRO ALUNO COMECOU, SE ELE N FIZER VOLTAR E FAZER)
 - [ ] Adicionar uma forma de identificacao das maquinas
+- [ ] Ajustar a planilha com os dados do laboratorio e das máquinas
